@@ -1,4 +1,4 @@
-git clone https://github.com/Blobby-Boi/BlobeVM
+git clone https://github.com/Progamerforeverywhere/CrynalVM
 cd BlobeVM
 pip install textual
 sleep 2
@@ -19,4 +19,4 @@ else
     docker run -d --name=BlobeVM -e PUID=1000 -e PGID=1000 --security-opt seccomp=unconfined -e TZ=Etc/UTC -e SUBFOLDER=/ -e TITLE=BlobeVM -p 3000:3000 --shm-size="2gb" -v $(pwd)/Save:/config --restart unless-stopped blobevm
 fi
 clear
-echo "BLOBEVM WAS INSTALLED SUCCESSFULLY! Check Port Tab"
+echo "CrynalVM WAS INSTALLED SUCCESSFULLY! Check Port Tab"
